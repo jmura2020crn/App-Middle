@@ -1,0 +1,27 @@
+#qr{
+position: relative;
+width: 22.5rem;
+height: 40rem;
+
+background: white;
+}
+
+#icono_middle{
+  position: absolute;
+  width: 12.188rem;
+  height: 2.688rem;
+  left: 5.125rem;
+  top: 10.625rem;
+
+  background: url(IMG/icono_middle.png);
+}
+
+#middle{
+position: absolute;
+width: 9.688rem;
+height: 2.438rem;
+left: 6.375rem;
+top: 13.813rem;
+
+background: url(IMG/middle.png);
+}
