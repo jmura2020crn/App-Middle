@@ -1,4 +1,4 @@
-#qr{
+body{
 position: relative;
 width: 22.5rem;
 height: 40rem;
@@ -6,22 +6,136 @@ height: 40rem;
 background: white;
 }
 
+/*---Logo----*/
+#logo_middle{
+  position: absolute;
+  width: 212.33px;
+  height: 98px;
+  left: 73.33px;
+  top: 201px;
+}
+
 #icono_middle{
   position: absolute;
-  width: 12.188rem;
-  height: 2.688rem;
-  left: 5.125rem;
-  top: 10.625rem;
+  width: 212.33px;
+  height: 46.82px;
+  left: 73.33px;
+  top: 201px;
+
 
   background: url(IMG/icono_middle.png);
 }
 
 #middle{
-position: absolute;
-width: 9.688rem;
-height: 2.438rem;
-left: 6.375rem;
-top: 13.813rem;
+  position: absolute;
+  width: 168.78px;
+  height: 42.47px;
+  left: 95.11px;
+  top: 256.53px;
 
 background: url(IMG/middle.png);
+}
+/*---Botones---*/
+
+#boton_inicia{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+
+  position: absolute;
+  width: 177px;
+  height: 38px;
+  left: 91px;
+  top: 356px;
+
+  /* blanco */
+
+  background: #FFFFFF;
+  /* lara */
+
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+
+}
+#boton_inicia_verde{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+
+  position: absolute;
+  width: 177px;
+  height: 38px;
+  left: 91px;
+  top: 420px;
+
+  /* #53CA98 */
+
+  background: #53CA98;
+  /* lara */
+
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+#texto_web{
+  /* Obre versió web */
+position: static;
+width: 118px;
+height: 17px;
+left: 29.5px;
+top: 10.5px;
+
+/* Resaltar_F */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height, or 121% */
+color: #53CA98;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+
+#texto_apk{
+  /* Descarrega app */
+position: static;
+width: 115px;
+height: 17px;
+left: 31px;
+top: 10.5px;
+
+/* Resaltar_F */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height, or 121% */
+/* White */
+color: #FFFFFF;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+
+#botones{
+  position: absolute;
+  width: 177px;
+  height: 102px;
+  left: 91px;
+  top: 356px;
+
 }
