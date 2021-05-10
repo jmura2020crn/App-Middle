@@ -1,49 +1,66 @@
+
+/*-----------------------------------reset--------------------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+/*------------------------------------------------------------------------------*/
+
 body{
+  font-family: 'Montserrat', sans-serif;
+  background: #FFFFFF;
+}
+
+.qr{
 position: relative;
-width: 22.5rem;
-height: 40rem;
-
+width: 100%;
+height: 177.778%;
+align-items: center;
+display: flex;
 background: white;
-}
+/*-----------------------------------logo--------------------------------------*/
+    }
+    .logo_middle{
+      /* logo_middle */
 
-/*---Logo----*/
-#logo_middle{
+      position: absolute;
+      width: 58.981%;
+      height: 27.222%;
+      left: 20.369%;
+      top: 55.833%;
+    }
+
+    .icono_middle{
+    /* icono_middle */
+
+      position: absolute;
+      width: 13.271rem;
+      height: 2.926rem;
+      left: 4.583rem;
+      top: 12.563rem;
+    }
+
+    /* middle */
+    .middle{
+      position: absolute;
+      width: 10.549rem;
+      height: 2.654rem;
+      left: 5.944rem;
+      top: 16.033rem;
+
+    }
+/*-----------------------------------botones--------------------------------------*/
+/* botones */
+.botones{
   position: absolute;
-  width: 212.33px;
-  height: 98px;
-  left: 73.33px;
-  top: 201px;
+  width: 49.167%;
+  height: 28.333%;
+  left: 25.278%;
+  top: 98.889%;
 }
 
-#icono_middle{
-  position: absolute;
-  width: 212.33px;
-  height: 46.82px;
-  left: 73.33px;
-  top: 201px;
-
-
-  background: url(IMG/icono_middle.png);
-}
-
-#middle{
-  position: absolute;
-  width: 168.78px;
-  height: 42.47px;
-  left: 95.11px;
-  top: 256.53px;
-
-background: url(IMG/middle.png);
-}
-/*---Botones---*/
-
-#boton_inicia{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 12px;
-
+.boton_inicia{
   position: absolute;
   width: 177px;
   height: 38px;
@@ -57,85 +74,50 @@ background: url(IMG/middle.png);
 
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-
 }
-#boton_inicia_verde{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 12px;
 
+.verde{
+background: #53CA98;
+  }
+
+.apk{
   position: absolute;
-  width: 177px;
-  height: 38px;
-  left: 91px;
-  top: 420px;
+  width: 115px;
+  height: 17px;
+  left: 31px;
+  top: 10.5px;
 
-  /* #53CA98 */
+  /* Resaltar_F */
 
-  background: #53CA98;
-  /* lara */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height, or 121% */
 
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+
+  /* White */
+
+  color: #FFFFFF;
 }
 
-#texto_web{
-  /* Obre versió web */
-position: static;
-width: 118px;
-height: 17px;
-left: 29.5px;
-top: 10.5px;
-
-/* Resaltar_F */
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-
-/* identical to box height, or 121% */
-color: #53CA98;
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 10px 0px;
-}
-
-#texto_apk{
-  /* Descarrega app */
-position: static;
-width: 115px;
-height: 17px;
-left: 31px;
-top: 10.5px;
-
-/* Resaltar_F */
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height, or 121% */
-/* White */
-color: #FFFFFF;
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 10px 0px;
-}
-
-#botones{
+.web{
   position: absolute;
-  width: 177px;
-  height: 102px;
-  left: 91px;
-  top: 356px;
+  width: 118px;
+  height: 17px;
+  left: 29.5px;
+  top: 10.5px;
 
+  /* Resaltar_F */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height, or 121% */
+
+
+  color: #53CA98;
 }
