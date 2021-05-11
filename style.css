@@ -18,21 +18,7 @@ body{
 .qr{
 
 /*-----------------------------------logo--------------------------------------*/
-    }
-    .logo_middle{
-      /* logo_middle */
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 0px;
 
-      position: absolute;
-      width: 212.33px;
-      height: 98.29px;
-      left: 20.361%;
-      top: 55.833%;
-    }
 
 /*-----------------------------------botones--------------------------------------*/
 /* botones */
