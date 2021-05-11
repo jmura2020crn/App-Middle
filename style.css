@@ -9,16 +9,62 @@
 body{
   font-family: 'Montserrat', sans-serif;
   background: #FFFFFF;
-  position: relative;
-  width: 100%;
-  height: 177.778%;
-  background: white;
 }
 
 .qr{
+position: relative;
+width: 360px;
+height: 640px;
 
 /*-----------------------------------logo--------------------------------------*/
+.logo_middle{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
 
+position: absolute;
+width: 212.33px;
+height: 98.29px;
+left: 73.33px;
+top: 201px;
+}
+  
+  .icono_middle{
+  position: static;
+  width: 212.33px;
+  height: 46.82px;
+  left: 0px;
+  top: 0px;
+
+  background: url(IMG/icono_middle.svg);
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 9px 0px;
+    
+  }
+  
+  .middle{
+  position: static;
+  width: 168.78px;
+  height: 42.47px;
+  left: 21.78px;
+  top: 55.82px;
+
+  background: url(IMG/middle.svg);
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 9px 0px;
+  }
 
 /*-----------------------------------botones--------------------------------------*/
 /* botones */
