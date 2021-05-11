@@ -21,32 +21,42 @@ body{
     }
     .logo_middle{
       /* logo_middle */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
 
       position: absolute;
-      width: 58.981%;
-      height: 27.222%;
-      left: 20.369%;
+      width: 212.33px;
+      height: 98.29px;
+      left: 20.361%;
       top: 55.833%;
     }
 
     .icono_middle{
     /* icono_middle */
 
-      position: absolute;
+      position: relative;
       width: 13.271rem;
       height: 2.926rem;
       left: 4.583rem;
       top: 12.563rem;
     }
 
-    /* middle */
-    .middle{
-      position: absolute;
-      width: 10.549rem;
-      height: 2.654rem;
-      left: 5.944rem;
-      top: 16.033rem;
 
+    .middle{
+    position: static;
+    width: 168.78px;
+    height: 42.47px;
+    left: 21.78px;
+    top: 55.82px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 9px 0px;
     }
 /*-----------------------------------botones--------------------------------------*/
 /* botones */
