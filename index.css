@@ -1,0 +1,1498 @@
+body{
+  margin: 0 auto;
+}
+
+.barra_superior{
+  width: 100%;
+  height: 9rem;
+  background-color: #FF6961;
+}
+
+  .flecha-left {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 1900px;
+  height: 190px;
+  border: 7px solid transparent;
+  border-radius: 100px
+  color: #EA2D23;
+ }
+
+ .flecha::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-bottom: 7px solid;
+  border-left: 7px solid;
+  transform: rotate(45deg);
+  left: 60px;
+  top: 60px;
+    color: #EA2D23;
+ }
+.titol{
+  width: 40%;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  margin: 0;
+  left: 7rem;
+  top: 2.3rem;
+  font-size: 3rem;
+  color: white;
+
+}
+#text_titol_registre{
+ font-family: 'Montserrat', sans-serif;
+font-size: 3rem;
+width: 80%;
+margin: 0 auto;
+margin-top: 4rem;
+}
+
+.apartats_registre{
+  width: 80%;
+  margin: 0 auto;
+  background-color: ;
+  position: relative;
+  top: 3rem;
+
+}
+.titol_apartats_registre{
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+}
+
+.text_apartats_registre{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  position: relative;
+  left: 1.5rem;
+  opacity: 50%;
+}
+
+.linea{
+width: 100%;
+height: 0.2rem;
+background-color: black;
+opacity: 50%;
+
+}
+
+input[type=password]{
+height: 3rem;
+width: 15rem;
+position: relative;
+top: 4rem;
+}
+
+#caixa_contrassenya{
+  position: relative;
+  top: -3rem;
+}
+
+#contrassenya{
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #53CA98;
+  position: relative;
+  top: 1rem;
+}
+/*
+ojo
+#caja_ojo{
+position: relative;
+left: 25rem;
+top: -2.5rem;
+}
+
+  #ojo {
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 24px;
+    height: 18px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    overflow: hidden;
+    box-sizing: border-box
+}
+#ojo::after,
+#ojo::before {
+    content: "";
+    display: block;
+    border-radius: 100px;
+    position: absolute;
+    box-sizing: border-box
+}
+#ojo::after {
+    top: 2px;
+    box-shadow:
+        inset 0 -8px 0 2px,
+        inset 0 0 0 2px;
+    width: 24px;
+    height: 24px
+}
+#ojo::before {
+    width: 8px;
+    height: 8px;
+    border: 2px solid;
+    bottom: 4px;
+    left: 8px
+}
+*/
+#crea_registre{
+  align-items: center;
+  padding: 8px 12px;
+  position: relative;
+  width: 20rem;;
+  height: 3.5rem;
+  background: #53CA98;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
+  position: relative;
+  left: 32em;
+  top: 5rem;
+}
+
+#texto_crea{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  margin: 0 auto;
+  position: relative;
+  left: 5.5rem;
+  color: white;
+
+}
+
+#texto_terminisicondicions_registre{
+  width: 80%;
+  background-color: ;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Montserrat, regular;
+  font-size: 10pt;
+  position: relative;
+  top: 3rem;
+    background-color: ;
+
+
+}
+.linea1{
+width: 100%;
+height: 0.2rem;
+background-color: black;
+opacity: 50%;
+position: relative;
+top: 3rem;
+
+}
+#frase_terminisicondicions_registre{
+  position: relative;
+  top: 6rem;
+
+
+}
+
+#laseguretat{
+text-align: center;
+font-family: Montserrat, regular;
+font-size: 10pt;
+}
+
+#general_logo_registre{
+  width: 80%;
+  background-color: ;
+  margin: 0 auto;
+  position: relative;
+  top: 10rem;
+
+}
+#logo_middle_registre{
+  margin: 0 auto;
+  background-color: ;
+  padding-left: 30%;
+
+}
+
+#checkbox_registre{
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  top: 20em;
+  left: 6rem;
+}
+
+
+#text_checkbox_registre{
+  font-family: Montserrat, regular;
+  font-size: 10pt;
+  position: relative;
+  top: 12rem;
+  background-color: ;
+  padding-left: 10rem;
+}
+ #div_menu_3_puntos{
+   float: right;
+   position: relative;
+   right: 3rem;
+   top: -0.2rem;
+   color: white;
+ }
+
+.menu_3_puntos {
+    transform: scale(var(--ggs,1))
+}
+.menu_3_puntos,
+.menu_3_puntos::after,
+.menu_3_puntos::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: currentColor;
+    border-radius: 100%
+}
+.menu_3_puntos::after,
+.menu_3_puntos::before {
+    content: "";
+    position: absolute
+}
+.menu_3_puntos::after {
+    left: 0;
+    top: 13px
+}
+.menu_3_puntos::before {
+    top: -13px;
+    right: 0
+}
+
+.div_hora_chat{
+  width: 100%;
+
+}
+.texto_hora_chat{
+  text-align: center;
+  font-family: Montserrat, regular;
+  font-size: 1.5rem;
+  color: #53CA98;
+}
+
+#vinyeta1{
+  position: relative;
+  left: 2rem;
+  width: 30rem;
+  height: 10rem;
+  background: #F1F4F7;
+  border-radius: 13.7083px 13.7083px 13.7083px 0px;
+}
+
+#texto_vinyeta_1{
+font-family: 'Inter', sans-serif;
+font-size: 2rem;
+padding: 1.6rem;
+opacity: 70%;
+
+}
+
+#hora_esquerra{
+  font-family: 'Inter', sans-serif;
+  color: black;
+  opacity: 50%;
+  padding-left: 2rem;
+  font-size: 1.5rem;
+}
+
+#vinyeta2{
+  float: right;
+  position: relative;
+  right: 2rem;
+  width: 15rem;
+  height: 6rem;
+  background: #53CA98;
+  border-radius: 13.7083px 13.7083px 0px 13.7083px;
+}
+#texto_vinyeta_2{
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  margin:0;
+  padding: 0.8rem;
+  color: white;
+}
+
+.hora_dreta{
+  font-family: 'Inter', sans-serif;
+  color: black;
+  opacity: 50%;
+  float: right;
+  font-size: 1.5rem;
+}
+
+.div_tick{
+background-color: ;
+height: 5rem;
+width: 8rem;
+float: right;
+position: relative;
+top: 6rem;
+left:13rem;
+
+}
+
+  .tick {
+    box-sizing: border-box;
+    transform: scale(var(--ggs,1));
+    width: 24px;
+    height: 24px;
+    border: 4px solid transparent;
+    border-radius: 100px;
+    float: right;
+    margin-top: 1.5rem;
+    color: green;
+}
+.tick::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    left: 5px;
+    top: -3px;
+    width: 8px;
+    height: 12px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    transform-origin: bottom left;
+    transform: rotate(45deg)
+}
+
+#vinyeta3{
+  position: relative;
+  top: 10rem;
+  left: 2rem;
+  width: 30rem;
+  height: 10rem;
+  background: #F1F4F7;
+  border-radius: 13.7083px 13.7083px 13.7083px 0px;
+}
+
+#hora_esquerra2{
+  font-family: 'Inter', sans-serif;
+  color: black;
+  opacity: 50%;
+  padding-left: 2rem;
+  font-size: 1.5rem;
+  position: relative;
+  top: 10rem;
+}
+#vinyeta4{
+  float: right;
+  position: relative;
+  top: 10rem;
+  right: 2rem;
+  width: 10rem;
+  height: 4rem;
+  background: #53CA98;
+  border-radius: 13.7083px 13.7083px 0px 13.7083px;
+}
+#texto_vinyeta_2{
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  margin:0;
+  padding: 0.8rem;
+  color: white;
+}
+
+#hora_dreta2{
+  font-family: 'Inter', sans-serif;
+  color: black;
+  opacity: 50%;
+  float: right;
+  font-size: 1.5rem;
+}
+
+#div_tick2{
+  background-color: ;
+height: 5rem;
+width: 8rem;
+float: right;
+position: relative;
+top: 14rem;
+left:8rem;
+
+}
+
+  #tick2 {
+    box-sizing: border-box;
+    transform: scale(var(--ggs,1));
+    width: 24px;
+    height: 24px;
+    border: 4px solid transparent;
+    border-radius: 100px;
+    float: right;
+    margin-top: 1.5rem;
+    color: green;
+}
+#tick2::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    left: 5px;
+    top: -3px;
+    width: 8px;
+    height: 12px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    transform-origin: bottom left;
+    transform: rotate(45deg)
+}
+
+#barra_escribir_chat{
+  width: 100%;
+  height: 7rem;
+  background-color: #FF6961;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+}
+
+#escriu_missatge_chat{
+font-family: 'Inter', sans-serif;
+color: white ;
+font-size: 2rem;
+padding-left: 3rem;
+}
+
+.codi_perfil_1{
+  margin-top: 3rem;
+  width: 70%;
+  margin: 0 auto;
+
+}
+#text_codi{
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 2rem;
+color: #53CA98;
+
+}
+
+#recuadro_codigo_vincular{
+  width: 20rem;
+  height: 8rem;
+  background-color: #53CA98;
+  margin: 0 auto;
+  border-radius: 9px;
+}
+
+#codigo_vincular{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: white;
+  padding: 3rem;
+  text-align: center;
+}
+#recuadro_codigo_vincular2{
+  width: 20rem;
+  height: 8rem;
+  border: 2px solid #53CA98;
+  margin: 0 auto;
+  border-radius: 9px;
+}
+#codigo_vincular2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #53CA98;
+  padding: 1rem;
+  text-align: center;
+}
+
+#linea2{
+  position: relative;
+  top: 15rem;
+  width: 100%;
+  height: 0.2rem;
+  background-color: black;
+  opacity: 50%;
+}
+
+#text_tambepots{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: black 50%;
+  margin: 0 auto;
+  background-color: white;
+  width: 15rem;
+  text-align: center;
+  transform: translateY(-1rem);
+}
+
+#boto_accepta_vincula{
+  width: 9rem;
+  height:4rem;
+  background-color: #53CA98;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  float: right;
+  position: relative;
+  right: 15rem;
+  top: 3rem;
+}
+
+#text_accepta{
+  margin: 0 auto;
+  padding: 1rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+
+}
+
+#enviar_codi_gmail{
+  width: 27rem;
+  height: 7rem;
+  background: white;
+  border-radius: 9px;
+  position: relative;
+  top: 20rem;
+  margin: 0 auto;
+  filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.2));
+
+}
+
+#img_gmail{
+  width: 3rem;
+  position: relative;
+  top: 2rem;
+  left: 2.5rem;
+}
+
+#text_codi_gmail{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  padding-left: 7rem;
+}
+
+#enviar_codi_whats{
+  width: 27rem;
+  height: 7rem;
+  background: white;
+  border-radius: 9px;
+  position: relative;
+  top: 22rem;
+  margin: 0 auto;
+  filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.2));
+}
+#img_whats{
+  width: 3rem;
+  position: relative;
+  top: 2rem;
+  left: 2.5rem;
+}
+
+#text_codi_whats{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  padding-left: 7rem;
+}
+
+#text_configurar_calendar{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: green;
+}
+.dies_extraescolars{
+  background-color: ;
+  padding-left: 8rem;
+  padding-top: 2rem;
+}
+.checkbox_id{
+  width: 2rem;
+  height: 2rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 20pt;
+}
+.dia_setmana_extras{
+  font-family: 'Inter', sans-serif;
+  font-size: 17pt;
+  position: relative;
+  left: 1rem;
+}
+#agrega_nousfills{
+  position: relative;
+  top: 3rem;
+}
+#text_agrega{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #53CA98;
+  position: relative;
+  left: 6rem;
+
+}
+
+#boto_crea_noufill{
+  width: 25rem;
+  height: 6rem;
+  background-color: #53CA98;
+  border-radius: 0.5rem;
+  position: relative;
+  left: 5rem;
+  top: 8rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+#terxt_crea_nousfills{
+  font-family: 'Inter', sans-serif;
+  font-size: 35pt;
+  text-align: center;
+  color: white;
+  padding-top: 1rem;
+
+}
+#img_logo_benvinguda{
+width: 50%;
+padding-left: 25%;
+padding-top: 70rem;
+
+}
+
+#div_logo_benvinguda{
+  width: 100%;
+  background-color: ;
+}
+
+#text_benvinguts{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50pt;
+  text-align: center;
+}
+#text_entra_benvinguts{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30pt;
+    text-align: center;
+
+}
+
+#div_logo_inicisessio{
+  width: 100%;
+  background-color: orange;
+
+}
+#img_logo_inicisessio{
+margin: 0 auto;
+}
+
+#crea_registre2{
+  align-items: center;
+  padding: 8px 12px;
+  position: relative;
+  width: 20rem;;
+  height: 3.5rem;
+  background: #53CA98;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
+  position: relative;
+  left: 6em;
+  top: 5rem;
+}
+
+#texto_crea{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  margin: 0 auto;
+  position: relative;
+  left: 5.5rem;
+  color: white;
+}
+#foto_trucades_perfil{
+width: 20rem;
+height: 20rem;
+padding-left: 35%;
+padding-top: 10rem;
+opacity: 50%;
+}
+#nombre_contacto_texto{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 3rem;
+
+}
+
+#numero_telefono_contacto{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  left: -6rem;
+  top: 5rem;
+}
+
+#linea_vertical{
+  width: 0.2rem;
+  height: 3rem;
+  background-color: black;
+  position: relative;
+  left: 35rem;
+  top: 2rem;
+
+}
+#icono_mvl_contacto{
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  left: 37rem;
+  top: -1rem;
+}
+
+#terxt_historial_trucades{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  padding-left: 4rem;
+  padding-top: 2rem;
+}
+
+.informacio_telefons{
+  width: 100%;
+  height: 10rem;
+}
+.info_data_trucada{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.6rem;
+  padding-left: 6rem;
+}
+
+.info_agafada_trucada{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  float: right;
+  position: relative;
+  top: -6rem;
+  right: 2rem;
+  opacity: 50%;
+}
+.info_numero_trucada{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+    opacity: 50%;
+    padding-left: 5rem;
+
+}
+#info_agafada_vermell_trucada{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  float: right;
+  position: relative;
+  top: -6rem;
+  right: 2rem;
+  opacity: 50%;
+  color: red;
+}
+#fondo_llamada_negro{
+  width: 100%;
+  height: 100%;
+  background-color: #212121;
+}
+#tiulo_contacto_llamada{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  margin: 0 auto;
+  position: relative;
+  left: 3rem;
+  top: 8rem;
+  color: white;
+}
+#nombre_contacto_llamada{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35pt;
+  margin: 0 auto;
+  position: relative;
+  left: 3rem;
+  top: 10rem;
+  color: white;
+}
+#nombre_trucadaencurs_llamada{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25pt;
+  margin: 0 auto;
+  position: relative;
+  left: 3rem;
+  top: 11rem;
+  color: white;
+}
+#foto_trucada_emergencia{
+  width: 6rem;
+  float: right;
+  position: relative;
+  right: 8rem;
+  top: 6rem;
+}
+#imgaen_fotoperfil_llamada{
+
+  border-radius: 10rem;
+
+}
+
+#div_general_imgen_llamada{
+  height: 35rem;
+    width: 35rem;
+    background-color: white;
+    border-radius: 20rem;
+    background-size: 35rem;
+    background-image: url(IMG/fotoperfilhombrellamada.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 15rem;
+    margin: 0 auto;
+}
+
+#img_iconos_llamada{
+  width: 40rem;
+  position: relative;
+  top: 18rem;
+  left: 10rem;
+  background-color: ;
+}
+
+#boton_colgar_llamada{
+  width: 10rem;
+  position: relative;
+  top: 45rem;
+  right: 14rem;
+
+}
+
+#div_perfil_chicha_perfil{
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#foto_perfil_chica_pefil{
+  width: 10rem;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+#text_el_meu_perfil{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2rem;
+  float: right;
+  opacity: 50%;
+  position: relative;
+  right: 32rem;
+  top: 2rem;
+}
+#text_el_meu_perfil_diana{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40pt ;
+  float: right;
+  position: relative;
+  bottom: 9rem;
+  right: 8.5rem;
+}
+
+#text_perfilasociats{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  position: relative;
+  top: 3rem;
+  left: 3rem;
+}
+#div_general_coparent{
+width: 100%;
+
+}
+#imagen_coparent{
+  width: 8rem;
+  border-radius: 9rem;
+  position: relative;
+  top: 3rem;
+  left: 3rem;
+
+}
+#text_coparent{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  float: right;
+  position: relative;
+  left: 1.5rem;
+  top: 1.5rem;
+}
+
+#text_nombre_coparent{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  margin: 0 ;
+  position: relative;
+  bottom: 1rem;
+  padding-left: 13rem;
+}
+.linea_perfilsasociats{
+  width: 80%;
+  margin: 0 auto;
+  height: 0.1rem;
+  background-color: black;
+  opacity: 10%;
+  margin-top: 2rem;
+
+}
+.img_afegir_contactedecoparent{
+  width: 15rem;
+ padding-left: 5rem;
+ padding-top: 2rem;
+}
+#text_fills_coparenting{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+
+.fotoperfil_fill1{
+  width: 7rem;
+  border-radius: 10rem;
+  padding-left: 7rem;
+}
+.nom_fills_coparenting{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  float: right;
+  position: relative;
+  right: 39rem;
+  bottom: 1rem;
+}
+
+.cognom_fills_coparenting{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  float: right;
+  position: relative;
+  right: 28rem;
+  top: 3.5rem;
+}
+
+#foto_julia_perfilfills{
+  width: 30%;
+  padding-left: 35%;
+  padding-top: 8rem;
+}
+#nombre_julia_perfil_fills{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+}
+#div_rectangulo_creixement{
+  width: 90%;
+  height: 13rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+background-color: #8EDCB9 ;
+
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+border-radius: 8px;
+
+}
+
+#foto_julia_creixement{
+padding-top: 2rem;
+padding-left: 5rem;
+width: 10rem;
+}
+
+#nombre_julia_creixement{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30pt;
+  float: right;
+  position: relative;
+  right: 33rem;
+  top: 1rem;
+}
+#apellido_julia_creixement{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20pt;
+  float: right;
+  position: relative;
+  right: 20.6rem;
+  top: 5rem;
+}
+#scale_creixement{
+  width: 7rem;
+  position: relative;
+  left: 20rem;
+  bottom: 1.5rem;
+}
+.elementos_creixement{
+  width: 20rem;
+  height: 22rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10.5721px;
+  margin-left: 8rem;
+  margin-top: 6rem;
+
+
+}
+.elementos_creixement2{
+  width: 20rem;
+  height: 22rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10.5721px;
+  margin-right: 8rem;
+  margin-right: 6rem;
+  float: right;
+  position: relative;
+  bottom: 22rem;
+}
+.img_elements_creixement{
+  margin-left: 30%;
+  margin-top: 2rem;
+}
+
+.text_verde_creixement{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25pt;
+  text-align: center;
+  color: #53CA98;
+}
+.text_negre_creixement{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25pt;
+  text-align: center;
+  position: relative;
+  bottom: 0.5rem;
+
+}
+
+#elementos_creixement3{
+  width: 20rem;
+  height: 22rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10.5721px;
+margin-top: 6rem;
+margin-left: 7.5rem;
+}
+#receptesaseguir_text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30pt;
+  padding-left: 3.5rem;
+}
+
+.recuadreo_receptes{
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 80%;
+  height: 18rem;
+  position: relative;
+  left: 7rem;
+
+}
+.receta_texto{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25pt;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+.medicamento_texto_receta{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20pt;
+  color: #53CA98;
+  padding-left: 2rem;
+}
+.cantidad_medicamento{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20pt;
+  color: #FF6961;
+  padding-right: 2rem;
+  float: right;
+  position: relative;
+  bottom: 5.4rem;
+}
+.img_clock_receptes{
+  position: relative;
+  top: 3rem;
+  left: 2rem;
+}
+
+.text_temps_receptes{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20pt;
+  color: #FF6961;
+
+  position: relative;
+  bottom: 1.3rem;
+  left: 6rem;
+}
+.dates_durada_recepta{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+  float: right;
+  position: relative;
+  bottom: 4rem;
+  right: 2rem;
+  opacity: 50%;
+}
+
+#img_afegir_medicament{
+  width: 15rem;
+ padding-left: 5rem;
+ padding-top: 3rem;
+}
+
+.titol_allergies{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35pt;
+  padding-left: 4rem;
+  padding-top: 2rem;
+}
+.icona_aelrgies{
+  width: 9rem;
+  padding-left: 6rem;
+  padding-top: 4rem;
+}
+#img_agrega_alergies{
+  width: 14rem;
+  position: relative;
+  left: 35%;
+  top: 3rem;
+
+}
+.div_general_vacunesposades{
+  width: 80%;
+  height: 10rem;
+
+  margin: 0 auto;
+}
+
+
+.data_vacunes{
+  font-family: 'Montserrat', sans-serif;
+font-size: 1.6rem;
+
+opacity: 50%;
+}
+
+.icone_ok_vacunes{
+  float: right;
+  position: relative;
+  bottom: 8rem;
+  right: 3rem;
+  width: 3rem;
+}
+
+#img_agrega_vacunes{
+  width: 14rem;
+  position: relative;
+  left: 5rem;
+  top: 3rem;
+  padding-bottom: 3rem;
+
+}
+.barra_superior_segunda{
+  width: 100%;
+  height: 10rem;
+  background-color: #FF6961;
+  border-bottom-left-radius: 5rem;
+border-bottom-right-radius: 5rem;
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titol2{
+  width: 40%;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  margin: 0;
+  left: 7rem;
+  top: 2.7rem;
+  font-size: 40pt;
+  color: white;
+}.imgs_menu_redondo{
+  float: right;
+  height: 5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 6rem;
+    display: flex;
+
+}
+.imgs_menu_redondo > * {
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.imgs_individual_menu_redondo {
+    height: 65%;
+}
+
+.imgs_individual_tresputnos_menu_redondo {
+    height: 65%;
+}
+
+div.scrollmenu {
+
+  overflow: auto;
+  white-space: nowrap;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+ padding-left: 3rem;
+ font-family: 'Montserrat', sans-serif;
+
+
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: black;
+  opacity: 50%;
+  text-align: center;
+  padding: 19px;
+  text-decoration: none;
+  height: 3rem;
+
+}
+
+div.scrollmenu a:hover {
+color: #53CA98;
+font-weight: bold;
+
+}
+div.scrollmenu > a:hover > div{
+  width: 4.5rem;
+  height: 0.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  background-color: #53CA98;
+
+}
+
+#div_general_titulo_calendario{
+  width: 80%;
+  height: 2rem;
+  padding-left: 6rem;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+}
+#flecha_derecha_calendario{
+
+  height: 100%;
+
+}
+#flecha_izquierda_calendario{
+  height: 100%;
+}
+#mes_calendario{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30pt;
+
+}
+.imgs_menu_redondo{
+  float: right;
+  height: 5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 6rem;
+	display: flex;
+
+}
+.imgs_menu_redondo > * {
+	height: 80%;
+	margin-top: auto;
+    margin-bottom: auto;
+
+	padding-left: 2rem;
+	padding-right: 2rem;
+
+	display: flex;
+    align-items: center;
+}
+
+.imgs_individual_menu_redondo {
+	height: 65%;
+}
+
+.imgs_individual_tresputnos_menu_redondo {
+	height: 65%;
+}
+
+.calendar {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+	font-size: 2rem;
+    text-align: center;
+
+	width: 70%;
+	margin-left: auto;
+    margin-right: auto;
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+.calendar > *:not(:first-child) {
+	width: 14.28%;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.calendar > :first-child {
+	display: flex;
+	width: 100%;
+	display: flex;
+    border-bottom: 2px solid #ff6961;
+	color: #ff6961;
+	font-weight: bold;
+	margin-bottom: .3em;
+}
+
+.calendar > div > div.left-decoration {
+	background-color: #BBEAD7;
+    border-radius: 50px 0px 0px 50px;
+
+	margin-right: 0px;
+    padding-right: 36px;
+}
+
+.calendar > div > div.right-decoration {
+	background-color: #BBEAD7;
+    border-radius: 0px 50px 50px 0px;
+
+	margin-left: 0px;
+    padding-left: 36px;
+}
+
+.calendar > div > div.decoration {
+	background-color: #BBEAD7;
+    border-radius: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+.calendar > div > div.dot > div {
+	height: 8px;
+    width: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff6961;
+    border-radius: 8px;
+}
+
+.calendar > div > div {
+	width: 36px;
+	height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+	padding: 12px;
+}
+
+.calendar > div:hover:not(:first-child) > div {
+	background-color: #ff6961;
+	color: white;
+}
+
+#modal {
+	background-color: white;
+    z-index: 1000;
+    font-size: 40pt;
+    position: fixed;
+    right: 5%;
+    top: 10%;
+    padding: 32px;
+    border-radius: 32px;
+    box-shadow: 4px 4px 8px 0px #00000060;
+
+	display: none;
+}
+
+#modal > div {
+	display: flex;
+	padding: 1rem;
+}
+
+#modal > div > img {
+	height: 4rem;
+	margin-right: 1rem;
+}
+
+#modal > div:last-child > img {
+	height: 2.5rem;
+	margin-right: 1rem;
+	margin-top: auto;
+    margin-bottom: auto;
+}
+
+.trespuntos:hover > #modal {
+	display: block;
+}
+.div_avui_records_calendari{
+  width: 90%;
+  height: 18rem;
+background-color: ;
+}
+
+.titol_avui_Calendari{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 3rem;
+   padding-left: 7rem;
+}
+
+.text_activitats_extraescolars{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding-left: 7rem;
+  opacity: 70%;
+}
+
+.lapiz_calendario{
+  width: 3rem;
+  float: right;
+  position: relative;
+  bottom: 7rem;
+}
+.text_hores_activitats_extraescolars{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  padding-left: 7rem;
+  opacity: 50%;
+  position: relative;
+  bottom: 2rem;
+}
+.linea_calendario{
+  width: 80%;
+  height: 0.2rem;
+  background-color: black;
+  opacity: 30%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 2rem;
+}
+
+#img_agrega_calendari{
+  width: 15rem;
+  padding-left: 7rem;
+}
+
+.icono_chat_link{
+  width: 30rem;
+  height:
+}
