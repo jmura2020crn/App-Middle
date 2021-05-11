@@ -1,4 +1,3 @@
-
 /*-----------------------------------reset--------------------------------------*/
 *{
   margin: 0;
@@ -10,15 +9,14 @@
 body{
   font-family: 'Montserrat', sans-serif;
   background: #FFFFFF;
+  position: relative;
+  width: 100%;
+  height: 177.778%;
+  background: white;
 }
 
 .qr{
-position: relative;
-width: 100%;
-height: 177.778%;
-align-items: center;
-display: flex;
-background: white;
+
 /*-----------------------------------logo--------------------------------------*/
     }
     .logo_middle{
@@ -53,61 +51,81 @@ background: white;
 /*-----------------------------------botones--------------------------------------*/
 /* botones */
 .botones{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
   position: absolute;
-  width: 49.167%;
-  height: 28.333%;
-  left: 25.278%;
-  top: 98.889%;
+  width: 179px;
+  height: 108px;
+  left: 55%;
+  top: 356px;
 }
 
 .boton_inicia{
-  position: absolute;
-  width: 177px;
-  height: 38px;
-  left: 91px;
-  top: 356px;
+  position: static;
+  width: 179px;
+  height: 41px;
+  left: 0px;
+  top: 0px;
 
-  /* blanco */
 
-  background: #FFFFFF;
-  /* lara */
+  /* Inside Auto Layout */
 
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 26px 0px;
 }
 
-.verde{
-background: #53CA98;
-  }
+.boton_inicia_verde{
+position: static;
+width: 179px;
+height: 41px;
+left: 0px;
+top: 67px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 26px 0px;
+}
 
 .apk{
   position: absolute;
-  width: 115px;
-  height: 17px;
-  left: 31px;
-  top: 10.5px;
+width: 115px;
+height: 17px;
+left: 30px;
+top: 79px;
+z-index: 2;
 
-  /* Resaltar_F */
+/* Resaltar_F */
 
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
-  /* identical to box height, or 121% */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height, or 121% */
 
 
-  /* White */
+/* White */
 
-  color: #FFFFFF;
+color: #FFFFFF;
+
 }
 
 .web{
+  z-index: 2;
   position: absolute;
-  width: 118px;
+  width: 120px;
   height: 17px;
-  left: 29.5px;
-  top: 10.5px;
+  left: 30px;
+  top: 12px;
 
   /* Resaltar_F */
 
@@ -119,5 +137,41 @@ background: #53CA98;
   /* identical to box height, or 121% */
 
 
+  /* #53CA98 */
+
   color: #53CA98;
+
 }
+
+.fondo_boton{
+  position: absolute;
+width: 179px;
+height: 41px;
+left: 0px;
+top: 0px;
+
+/* blanco */
+
+background: #FFFFFF;
+/* lara */
+
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+border-radius: 9px;
+}
+
+.fondo_boton_verde{
+  position: absolute;
+  width: 179px;
+  height: 41px;
+  left: 0px;
+  top: 67px;
+
+  /* #53CA98 */
+
+  background: #53CA98;
+  /* lara */
+
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+}
+
