@@ -1,76 +1,188 @@
+/*-----------------------------------reset--------------------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+/*------------------------------------------------------------------------------*/
+
 body{
+  font-family: 'Montserrat', sans-serif;
+  background: #FFFFFF;
+}
+
+.qr{
 position: relative;
-width: 22.5rem;
-height: 40rem;
+width: 360px;
+height: 640px;
 
-background: white;
+/*-----------------------------------logo--------------------------------------*/
+.logo_middle{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 212.33px;
+height: 98.29px;
+left: 73.33px;
+top: 201px;
 }
-
-/*---Logo----*/
-#logo_middle{
-  position: absolute;
-  width: 212.33px;
-  height: 98px;
-  left: 73.33px;
-  top: 201px;
-}
-
-#icono_middle{
-  position: absolute;
+  
+  .icono_middle{
+  position: static;
   width: 212.33px;
   height: 46.82px;
-  left: 73.33px;
-  top: 201px;
+  left: 0px;
+  top: 0px;
 
+  background: url(IMG/icono_middle.svg);
 
-  background: url(IMG/icono_middle.png);
-}
+  /* Inside Auto Layout */
 
-#middle{
-  position: absolute;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 9px 0px;
+    
+  }
+  
+  .middle{
+  position: static;
   width: 168.78px;
   height: 42.47px;
-  left: 95.11px;
-  top: 256.53px;
+  left: 21.78px;
+  top: 55.82px;
 
-background: url(IMG/middle.png);
-}
-/*---Botones---*/
+  background: url(IMG/middle.svg);
 
-#boton_inicia{
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 9px 0px;
+  }
+
+/*-----------------------------------botones--------------------------------------*/
+/* botones */
+.botones{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 12px;
+  align-items: flex-start;
+  padding: 0px;
 
   position: absolute;
-  width: 177px;
-  height: 38px;
-  left: 91px;
+  width: 179px;
+  height: 108px;
+  left: 55%;
   top: 356px;
+}
 
-  /* blanco */
+.boton_inicia{
+  position: static;
+  width: 179px;
+  height: 41px;
+  left: 0px;
+  top: 0px;
 
-  background: #FFFFFF;
-  /* lara */
 
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 26px 0px;
+}
+
+.boton_inicia_verde{
+position: static;
+width: 179px;
+height: 41px;
+left: 0px;
+top: 67px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 26px 0px;
+}
+
+.apk{
+  position: absolute;
+width: 115px;
+height: 17px;
+left: 30px;
+top: 79px;
+z-index: 2;
+
+/* Resaltar_F */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height, or 121% */
+
+
+/* White */
+
+color: #FFFFFF;
 
 }
-#boton_inicia_verde{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 12px;
 
+.web{
+  z-index: 2;
   position: absolute;
-  width: 177px;
-  height: 38px;
-  left: 91px;
-  top: 420px;
+  width: 120px;
+  height: 17px;
+  left: 30px;
+  top: 12px;
+
+  /* Resaltar_F */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.063rem;
+  /* identical to box height, or 121% */
+
+
+  /* #53CA98 */
+
+  color: #53CA98;
+
+}
+
+.fondo_boton{
+  position: absolute;
+width: 179px;
+height: 41px;
+left: 0px;
+top: 0px;
+
+/* blanco */
+
+background: #FFFFFF;
+/* lara */
+
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+border-radius: 9px;
+}
+
+.fondo_boton_verde{
+  position: absolute;
+  width: 179px;
+  height: 41px;
+  left: 0px;
+  top: 67px;
 
   /* #53CA98 */
 
@@ -78,64 +190,6 @@ background: url(IMG/middle.png);
   /* lara */
 
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  border-radius: 9px;
 }
 
-#texto_web{
-  /* Obre versió web */
-position: static;
-width: 118px;
-height: 17px;
-left: 29.5px;
-top: 10.5px;
-
-/* Resaltar_F */
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-
-/* identical to box height, or 121% */
-color: #53CA98;
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 10px 0px;
-}
-
-#texto_apk{
-  /* Descarrega app */
-position: static;
-width: 115px;
-height: 17px;
-left: 31px;
-top: 10.5px;
-
-/* Resaltar_F */
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height, or 121% */
-/* White */
-color: #FFFFFF;
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 10px 0px;
-}
-
-#botones{
-  position: absolute;
-  width: 177px;
-  height: 102px;
-  left: 91px;
-  top: 356px;
-
-}

@@ -1,6 +1,9 @@
 body{
   margin: 0 auto;
 }
+a{
+  text-decoration: none;
+}
 
 .barra_superior{
   width: 100%;
@@ -8,32 +11,6 @@ body{
   background-color: #FF6961;
 }
 
-  .flecha-left {
-  box-sizing: border-box;
-  position: relative;
-  display: block;
-  transform: scale(var(--ggs,1));
-  width: 1900px;
-  height: 190px;
-  border: 7px solid transparent;
-  border-radius: 100px
-  color: #EA2D23;
- }
-
- .flecha::after {
-  content: "";
-  display: block;
-  box-sizing: border-box;
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  border-bottom: 7px solid;
-  border-left: 7px solid;
-  transform: rotate(45deg);
-  left: 60px;
-  top: 60px;
-    color: #EA2D23;
- }
 .titol{
   width: 40%;
   font-family: 'Montserrat', sans-serif;
@@ -44,6 +21,23 @@ body{
   font-size: 3rem;
   color: white;
 
+}
+.titol22{
+  width: 40%;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  margin: 0;
+  left: 7rem;
+
+  font-size: 3rem;
+  color: white;
+
+}
+.flecha_derecha_chat{
+  width: 2rem;
+  position: relative;
+  top: 3.2rem;
+  left: 2rem;
 }
 #text_titol_registre{
  font-family: 'Montserrat', sans-serif;
@@ -70,8 +64,10 @@ font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   position: relative;
-  left: 1.5rem;
+  left: 1.7rem;
   opacity: 50%;
+  border: 0;
+  width: 25%;
 }
 
 .linea{
@@ -159,7 +155,19 @@ top: -2.5rem;
   left: 32em;
   top: 5rem;
 }
-
+#crea_terminis{
+  align-items: center;
+    padding: 1rem;
+  position: relative;
+  width: 20rem;;
+  height: 3.5rem;
+  background: #53CA98;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
+  position: relative;
+  left: 32em;
+  top: 15rem;
+}
 #texto_crea{
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
@@ -271,6 +279,14 @@ font-size: 10pt;
 .menu_3_puntos::before {
     top: -13px;
     right: 0
+}
+
+.img_3punts{
+  width: 1rem;
+  float: right;
+  position: relative;
+  bottom: 5rem;
+  right: 3rem;
 }
 
 .div_hora_chat{
@@ -459,7 +475,8 @@ left:8rem;
   bottom: 0;
   right: 0;
   left: 0;
-
+  font-size: 4rem;
+  color: black;
 }
 
 #escriu_missatge_chat{
@@ -657,17 +674,56 @@ color: #53CA98;
   padding-top: 1rem;
 
 }
-#img_logo_benvinguda{
-width: 50%;
-padding-left: 25%;
-padding-top: 70rem;
 
-}
 
 #div_logo_benvinguda{
   width: 100%;
-  background-color: ;
+  background-color:red ;
 }
+#img_logo_benvinguda{
+width: 50%;
+padding-left: 25%;
+padding-top: 30%;
+
+}
+#logo_entrada_intro{
+  width: 80%;
+  height: 60rem;
+}
+.animated {
+            background-image: url(IMG/logo.png);
+            background-repeat: no-repeat;
+            background-position: relative;
+            padding-top:95px;
+            margin-bottom:60px;
+            -webkit-animation-duration: 10s;
+            animation-duration: 5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            position: relative;
+            top: 30rem;
+            left: 35%;
+
+         }
+@-webkit-keyframes fadeIn {
+           0% {opacity: 0;
+           with}
+           30%{opacity: 30%}
+           100% {opacity: 1;
+           }
+        }
+
+        @keyframes fadeIn {
+           0% {opacity: 0;}
+           100% {opacity: 1;}
+        }
+
+        .fadeIn {
+           -webkit-animation-name: fadeIn;
+           animation-name: fadeIn;
+        }
+
+
 
 #text_benvinguts{
   font-family: 'Montserrat', sans-serif;
@@ -702,6 +758,14 @@ margin: 0 auto;
   position: relative;
   left: 6em;
   top: 5rem;
+}
+#texto_terminis{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  margin: 0 auto;
+  position: relative;
+  left: 3rem;
+  color: white;
 }
 
 #texto_crea{
@@ -1230,7 +1294,6 @@ display: flex;
     height: 80%;
     margin-top: auto;
     margin-bottom: auto;
-
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -1242,7 +1305,9 @@ display: flex;
 .imgs_individual_tresputnos_menu_redondo {
     height: 65%;
 }
-
+.imgs_individual_emergencia_menu_redondo{
+  height: 100%;
+}
 div.scrollmenu {
 
   overflow: auto;
@@ -1333,14 +1398,14 @@ div.scrollmenu > a:hover > div{
 
 .calendar {
 	display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: row;
 	font-size: 2rem;
-    text-align: center;
-
+  text-align: center;
 	width: 70%;
 	margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
+  padding-left: 2rem;
 
 	font-family: 'Montserrat', sans-serif;
 }
@@ -1356,7 +1421,7 @@ div.scrollmenu > a:hover > div{
 	display: flex;
 	width: 100%;
 	display: flex;
-    border-bottom: 2px solid #ff6961;
+  border-bottom: 2px solid #ff6961;
 	color: #ff6961;
 	font-weight: bold;
 	margin-bottom: .3em;
@@ -1446,8 +1511,8 @@ div.scrollmenu > a:hover > div{
 }
 .div_avui_records_calendari{
   width: 90%;
-  height: 18rem;
 background-color: ;
+
 }
 
 .titol_avui_Calendari{
@@ -1490,9 +1555,258 @@ background-color: ;
 #img_agrega_calendari{
   width: 15rem;
   padding-left: 7rem;
+
+
 }
 
 .icono_chat_link{
   width: 30rem;
   height:
+}
+
+.img_chat_tot{
+  width: 10rem;
+  position: fixed;
+  right: 2rem;
+  bottom: 10rem;
+}
+
+#fotoperfil_sanitat_julia{
+  width: 10rem;
+  padding-left: 5rem;
+  padding-top: 3rem;
+}
+#fotoperfil_sanitat_segona{
+  width: 8rem;
+  padding-left:  2rem;
+  padding-top: 3rem;
+}
+
+#nom_julia_sanitat{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  padding-left: 7rem;
+  color: #ff6961;
+}
+
+.div_general_sanitat_apartats{
+  width: 80%;
+  height: 15rem;
+  border-radius: 3rem;
+  background-color: #ddf5ea;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.icona_sanitat_apartats{
+  width: 8em;
+  padding-left: 4rem;
+  padding-top: 4rem;
+}
+.text_apartat_sanitat{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: #53CA98;
+  float: right;
+  position: relative;
+  right: 18rem;
+  top: 3rem;
+}
+
+.flecha_derecha_sanitaT_apartats{
+float: right;
+position: relative;
+top: 5.5rem;
+left: 8rem;
+
+}
+
+#div_general_moneder{
+width: 80%;
+height: 65rem;
+background-color: ;
+margin: 0 auto;
+margin-top: 3rem;
+border-radius: 3rem;
+box-shadow: 4px 4px 8px 0px #00000060;
+  }
+
+
+  .titol_aquesmes{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
+  }
+
+#subtitol_dinersgastats{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  padding-left: 3rem;
+  opacity: 50%;
+  position: relative;
+  bottom: 1.5rem;
+}
+#img_grafico_moneder{
+  width: 60%;
+padding-left: 20%;
+}
+
+#marcadores_monedero{
+  width: 90%;
+  padding-top: 10em;
+}
+.peques_esquemas_pagos{
+  width: 80%;
+  height: 10rem;
+  margin: 0  auto;
+}
+
+.futbol_sala{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: red;
+}
+
+.dies_restants{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: red;
+  position: relative;
+  bottom: 1rem;
+}
+.dinero_a_pagar{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: red;
+  float: right;
+  position: relative;
+  bottom: 15rem;
+}
+.futbol_sala2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+
+}
+
+
+.dies_restants2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  position: relative;
+  bottom: 1rem;
+}
+.dinero_a_pagar2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  float: right;
+  position: relative;
+  bottom: 15rem;
+}
+
+#input_buscador_contactes{
+  width: 80%;
+  height: 7rem;
+  background-color: #53CA98;;
+  border-radius: 6rem;
+  border: 0;
+  margin-left: 10%;
+  margin-top: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+
+}
+#afegircontavte{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #53CA98;
+  padding-left: 3rem;
+}
+.editar_contacte{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding-left: 5rem;
+  position: relative;
+  top: 4rem;
+}
+.trucada_general_contactes{
+width: 80%;
+height:10rem;
+margin: 0 auto;
+margin-top: 4rem;
+
+}
+.fotoperfilblanco{
+  width: 9rem;
+}
+
+.nombre_contacto_llamadas_historial{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  float: right;
+  position: relative;
+  right: 23rem;
+}
+
+.funcionllamada{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  float: right;
+  position: relative;
+  right: 15.5rem;
+  top: 4rem;
+}
+
+.llamadaverde{
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  bottom: 2rem;
+  left: 30rem;
+}
+
+.div_general_imatges{
+  width: 26rem;
+  height: 30rem;
+  background-color: red;
+  float: left;
+  border-radius: 3rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
+
+}
+.div_general_documents{
+  width: 80%;
+  height: 30rem;
+
+  border-radius: 3rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.imatge_docuemnts_imatge{
+  width: 100%;
+  border-radius: 3rem;
+
+}
+.rectagulo_documentos{
+  width: 100%;
+  height: 8rem;
+  background-color: #53CA98;
+  opacity: 30%;
+  position: relative;
+  bottom: 10rem;
+  border-radius: 0 0 3rem 3rem;
+}
+
+.text_dni_julia{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: black;
+  padding-left: 3rem;
+
+}
+
+#document_escanejat{
+  width: 70%;
+  padding-left: 15%;
 }
